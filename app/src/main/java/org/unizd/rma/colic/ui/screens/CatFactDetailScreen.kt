@@ -35,7 +35,7 @@ fun CatFactDetailScreen(fact: String, length: Int, navController: NavController)
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(vertical = 8.dp)
             )
-            Text(text = "Length: $length", style = MaterialTheme.typography.bodyMedium)
+            //Text(text = "Length: $length", style = MaterialTheme.typography.bodyMedium)
         }
     }
 }
